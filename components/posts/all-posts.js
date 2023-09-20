@@ -5,7 +5,7 @@ function AllPosts(props){
     return (
         <section className={classes.posts}>
             <h1>All Posts</h1>
-            <PostGrid post={props.posts}/>
+            <PostGrid posts={props.posts}/>
         </section>
     )
 }
