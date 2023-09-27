@@ -37,8 +37,8 @@ function PostContent(props) {
             <Image
               src={`/images/posts/${post.slug}/${image.properties.src}`}
               alt={image.alt || 'Alternative Image Text'}
-              width={600}
-              height={300}
+              width={290}
+              height={250}
             />
           </div>
         );
